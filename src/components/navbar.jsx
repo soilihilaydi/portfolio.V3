@@ -1,8 +1,9 @@
-"use client";
+"use client"
 
 import Image from "next/image";
 import Link from 'next/link';
 import { useState } from "react";
+import NavLink from "./navLink";
 
 
 
@@ -27,7 +28,7 @@ const Navbar = () => {
         {/* LINKS */}
          <div className="hidden md:flex gap-4 w-1/3 ">
          {links.map(link => (
-          <Link href={link.url}  key={link.title}>{link.title}</Link>
+          <NavLink link={link} key={link.title} />
         ))}
           </div> 
 
