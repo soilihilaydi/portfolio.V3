@@ -99,12 +99,12 @@ const Navbar = () => {
 
        {/* LIEN GITHUB */}
 
-        <div className="hidden md:flex gap-4 w-1/3">
-        <Link href="/">
-          <Image src="/github.png" alt="" width={24} height={24} />
-        </Link>
-      
-        </div>
+       <div className="hidden md:flex gap-4 w-1/3">
+    <Link href="/" className="ml-auto">
+        <Image src="/github.png" alt="" width={24} height={24} />
+    </Link>
+    
+     </div>
 
 
 
